@@ -8,23 +8,44 @@ Taichi provides several advantages over existing computational fluid dynamics to
 - Portability: Write your code once and run it everywhere. You can easily **reproduce** other's work without worrying about environment setup.
 - Simplicity: Data structure detached from computational logic. Tuning performance with only a few lines of change.
 
-## Installation
+## Installation of Taichi
 You can easily install Taichi with Python's package installer `pip`:
 
 ```bash
 pip install taichi
 ```
+
+After you have installed Taichi, running a Taichi program is as simple as：
+```bash
+python your_program.py
+```
+
 More information can be found in [Taichi's Documentation](https://docs.taichi.graphics/).
 
-## Taichi Learning Resources
+## Learning Resources
 - Taichi's documentation: [Link](https://docs.taichi.graphics/)
 - SIGGRAPH 2020 course on Taichi basics: [YouTube](https://youtu.be/Y0-76n3aZFA), [Bilibili](https://www.bilibili.com/video/BV1kA411n7jk/), [slides (pdf)](https://yuanming.taichi.graphics/publication/2020-taichi-tutorial/taichi-tutorial.pdf).
-- Chinagraph 2020 Writing a Physic Engine in Taichi: [哔哩哔哩](https://www.bilibili.com/video/BV1gA411j7H5)
-- GAMES 201 高级物理引擎实战指南2020: [课件](https://github.com/taichi-dev/games201)
-- 太极图形课第一季：[课件](https://github.com/taichiCourse01)
 
 
-## Basic CFD theories
+## CFD Projects in Taichi
+
+### Incompressible Fluids ###
+
+- SIMPLE Method
+  - [karman_taichi](https://github.com/houkensjtu/karman_taichi) by [@houkensjtu](https://github.com/houkensjtu)
 
 
-## CFD projects in Taichi
+- Lattice-Boltzmann Method
+  - [LBM_Taichi](https://github.com/hietwll/LBM_Taichi) by [@hietwll](https://github.com/hietwll)
+
+### Compressible Fluids ###
+
+### Surface Flow ###
+
+### Particle Based Methods ###
+
+- Smoothed-Particle Hydrodynamics (SPH) 
+  - [SPH_Taichi](https://github.com/erizmr/SPH_Taichi) by [@erizmr](https://github.com/erizmr)
+  - [wcsph](https://github.com/lyd405121/wcsph) by [@lyd405121](https://github.com/lyd405121)
+  - [SPH-2D-Taichi](https://github.com/MmmmHeee/SPH-2D-Taichi) by [@MmmmHeee](https://github.com/MmmmHeee)
+  - [taichiCourse01_tiSPHi](https://github.com/Rabmelon/taichiCourse01_tiSPHi) by [@Rabmelon](https://github.com/Rabmelon)
