@@ -17,7 +17,8 @@ pip install taichi
 More information can be found in [Taichi's Documentation](https://docs.taichi.graphics/).
 
 ## Taichi Learning Resources
-- **SIGGRAPH 2020 course on Taichi basics**: [YouTube](https://youtu.be/Y0-76n3aZFA), [Bilibili](https://www.bilibili.com/video/BV1kA411n7jk/), [slides (pdf)](https://yuanming.taichi.graphics/publication/2020-taichi-tutorial/taichi-tutorial.pdf).
+- Taichi's documentation: [Link](https://docs.taichi.graphics/)
+- SIGGRAPH 2020 course on Taichi basics: [YouTube](https://youtu.be/Y0-76n3aZFA), [Bilibili](https://www.bilibili.com/video/BV1kA411n7jk/), [slides (pdf)](https://yuanming.taichi.graphics/publication/2020-taichi-tutorial/taichi-tutorial.pdf).
 - Chinagraph 2020 Writing a Physic Engine in Taichi: [哔哩哔哩](https://www.bilibili.com/video/BV1gA411j7H5)
 - GAMES 201 高级物理引擎实战指南2020: [课件](https://github.com/taichi-dev/games201)
 - 太极图形课第一季：[课件](https://github.com/taichiCourse01)
