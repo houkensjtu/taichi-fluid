@@ -33,12 +33,15 @@ More information can be found in [Taichi's Documentation](https://docs.taichi.gr
 
 - SIMPLE Method
   - [karman_taichi](https://github.com/houkensjtu/karman_taichi) by [@houkensjtu](https://github.com/houkensjtu)
-
-
 - Lattice-Boltzmann Method
   - [LBM_Taichi](https://github.com/hietwll/LBM_Taichi) by [@hietwll](https://github.com/hietwll)
+- Level-Set method
+  - [taichi_ferrofluid](https://github.com/g1n0st/taichi_ferrofluid) by [@g1n0st](https://github.com/g1n0st)
 
 ### Compressible Fluids ###
+
+- Convection Riemann solver
+  - [taichi-fvm2d-fluid-ns](https://github.com/hejob/taichi-fvm2d-fluid-ns) by [@hejob](https://github.com/hejob)
 
 ### Surface Flow ###
 
@@ -49,3 +52,15 @@ More information can be found in [Taichi's Documentation](https://docs.taichi.gr
   - [wcsph](https://github.com/lyd405121/wcsph) by [@lyd405121](https://github.com/lyd405121)
   - [SPH-2D-Taichi](https://github.com/MmmmHeee/SPH-2D-Taichi) by [@MmmmHeee](https://github.com/MmmmHeee)
   - [taichiCourse01_tiSPHi](https://github.com/Rabmelon/taichiCourse01_tiSPHi) by [@Rabmelon](https://github.com/Rabmelon)
+
+### Computational Graphics ###
+- Eulerian solver
+  - [Taichi_HW1_EulerianFluid](https://github.com/JerryYan97/Taichi_HW1_EulerianFluid) by [@JerryYan97](https://github.com/JerryYan97)
+- FFT
+  - [taichi-simple-fluid-solver](https://github.com/0xrabbyte/taichi_simple_fluid_solver) by [@0xrabbyte](https://github.com/0xrabbyte)
+
+
+### Fluid Engine ###
+- [taichi_fluids](https://github.com/taichi-dev/taichi_fluids) by [@taichi-dev](https://github.com/taichi-dev)
+- [a-toy-fluid-engine](https://github.com/Jack12xl/a-toy-fluid-engine) by [@Jack12xl](https://github.com/Jack12xl)
+- [Fluid-Engine-Dev-on-Taichi](https://github.com/JYLeeLYJ/Fluid-Engine-Dev-on-Taichi) by [@JYLeeLYJ](https://github.com/JYLeeLYJ)
