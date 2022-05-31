@@ -8,6 +8,16 @@ Taichi provides several advantages over existing computational fluid dynamics to
 - Portability: Write your code once and run it everywhere. You can easily **reproduce** other's work without worrying about environment setup.
 - Simplicity: Data structure detached from computational logic. Tuning performance with only a few lines of change.
 
+## Contents
+- [Installation](#installation-of-taichi)
+- [Learning Resources](#learning-resources)
+- [CFD Projects in Taichi](#cfd-projects-in-taichi)
+  - [Incompressible Fluids](#incompressible-fluids)
+  - [Compressible Fluids](#compressible-fluids)
+  - [Particle-Based Methods](#particle-based-methods)
+  - [Computational Graphics](#computational-graphics)
+  - [Fluid Engine](#fluid-engine)
+
 ## Installation of Taichi
 You can easily install Taichi with Python's package installer `pip`:
 
@@ -35,15 +45,18 @@ More information can be found in [Taichi's Documentation](https://docs.taichi.gr
   - [karman_taichi](https://github.com/houkensjtu/karman_taichi) by [@houkensjtu](https://github.com/houkensjtu)
 - Lattice-Boltzmann Method
   - [LBM_Taichi](https://github.com/hietwll/LBM_Taichi) by [@hietwll](https://github.com/hietwll)
-- Level-Set method
+  - [taichi-LBM](https://github.com/GeCao/taichi-LBM) by [@Gecao](https://github.com/GeCao)
+- Level-Set Method
   - [taichi_ferrofluid](https://github.com/g1n0st/taichi_ferrofluid) by [@g1n0st](https://github.com/g1n0st)
+- Marker-And-Cell(MAC) Method
+  - [2d-fluid-simulator](https://github.com/takah29/2d-fluid-simulator) by [@takah29](https://github.com/takah29)
+  
 
 ### Compressible Fluids ###
 
 - Convection Riemann solver
   - [taichi-fvm2d-fluid-ns](https://github.com/hejob/taichi-fvm2d-fluid-ns) by [@hejob](https://github.com/hejob)
 
-### Surface Flow ###
 
 ### Particle Based Methods ###
 
@@ -52,6 +65,7 @@ More information can be found in [Taichi's Documentation](https://docs.taichi.gr
   - [wcsph](https://github.com/lyd405121/wcsph) by [@lyd405121](https://github.com/lyd405121)
   - [SPH-2D-Taichi](https://github.com/MmmmHeee/SPH-2D-Taichi) by [@MmmmHeee](https://github.com/MmmmHeee)
   - [taichiCourse01_tiSPHi](https://github.com/Rabmelon/taichiCourse01_tiSPHi) by [@Rabmelon](https://github.com/Rabmelon)
+
 
 ### Computational Graphics ###
 - Eulerian solver
