@@ -54,6 +54,7 @@ More information can be found in [Taichi's Documentation](https://docs.taichi.gr
 - Lattice-Boltzmann Method
   - [LBM_Taichi](https://github.com/hietwll/LBM_Taichi) by [@hietwll](https://github.com/hietwll)
   - [taichi-LBM](https://github.com/GeCao/taichi-LBM) by [@Gecao](https://github.com/GeCao)
+  - [taichi_LBM3d](https://github.com/yjhp1016/taichi_LBM3D) by [@yjhp1016](https://github.com/yjhp1016)
 - Level-Set Method
   - [taichi_ferrofluid](https://github.com/g1n0st/taichi_ferrofluid) by [@g1n0st](https://github.com/g1n0st)
 - Marker-And-Cell(MAC) Method
