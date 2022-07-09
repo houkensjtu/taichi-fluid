@@ -81,6 +81,8 @@ More information can be found in [Taichi's Documentation](https://docs.taichi.gr
   - [Taichi_HW1_EulerianFluid](https://github.com/JerryYan97/Taichi_HW1_EulerianFluid) by [@JerryYan97](https://github.com/JerryYan97)
 - FFT
   - [taichi-simple-fluid-solver](https://github.com/0xrabbyte/taichi_simple_fluid_solver) by [@0xrabbyte](https://github.com/0xrabbyte)
+- Interactive surface flow
+  - [TaichiSimplicialFluid](https://github.com/yhesper/TaichiSimplicialFluid) by [@yhesper](https://github.com/yhesper)
 
 
 ### Fluid Engine ###
