@@ -86,6 +86,7 @@ More information can be found in [Taichi's Documentation](https://docs.taichi.gr
 
 
 ### Fluid Engine ###
+- [taichi-particles](https://github.com/taichi-dev/taichi-particles) by [@taichi-dev](https://github.com/taichi-dev)
 - [taichi_fluids](https://github.com/taichi-dev/taichi_fluids) by [@taichi-dev](https://github.com/taichi-dev)
 - [a-toy-fluid-engine](https://github.com/Jack12xl/a-toy-fluid-engine) by [@Jack12xl](https://github.com/Jack12xl)
 - [Fluid-Engine-Dev-on-Taichi](https://github.com/JYLeeLYJ/Fluid-Engine-Dev-on-Taichi) by [@JYLeeLYJ](https://github.com/JYLeeLYJ)
