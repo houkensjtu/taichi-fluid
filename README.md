@@ -51,6 +51,7 @@ More information can be found in [Taichi's Documentation](https://docs.taichi.gr
 
 - SIMPLE Method
   - [karman_taichi](https://github.com/houkensjtu/karman_taichi) by [@houkensjtu](https://github.com/houkensjtu)
+  - [SIMPLE-taichi](https://github.com/houkensjtu/SIMPLE-taichi) by [@houkensjtu](https://github.com/houkensjtu)
 - Lattice-Boltzmann Method
   - [LBM_Taichi](https://github.com/hietwll/LBM_Taichi) by [@hietwll](https://github.com/hietwll)
   - [taichi-LBM](https://github.com/GeCao/taichi-LBM) by [@Gecao](https://github.com/GeCao)
@@ -59,6 +60,7 @@ More information can be found in [Taichi's Documentation](https://docs.taichi.gr
   - [taichi_ferrofluid](https://github.com/g1n0st/taichi_ferrofluid) by [@g1n0st](https://github.com/g1n0st)
 - Marker-And-Cell(MAC) Method
   - [2d-fluid-simulator](https://github.com/takah29/2d-fluid-simulator) by [@takah29](https://github.com/takah29)
+  - [MAC-taichi](https://github.com/houkensjtu/MAC-taichi) by [@houkensjtu](https://github.com/houkensjtu)
   
 
 ### Compressible Fluids ###
@@ -83,6 +85,9 @@ More information can be found in [Taichi's Documentation](https://docs.taichi.gr
   - [taichi-simple-fluid-solver](https://github.com/0xrabbyte/taichi_simple_fluid_solver) by [@0xrabbyte](https://github.com/0xrabbyte)
 - Interactive surface flow
   - [TaichiSimplicialFluid](https://github.com/yhesper/TaichiSimplicialFluid) by [@yhesper](https://github.com/yhesper)
+- PIC / FLIP
+  - [apic2d](https://github.com/nepluno/apic2d) by [@nepluno](https://github.com/nepluno)
+  - [Power-PIC](https://github.com/g1n0st/Power-PIC) by [@g1n0st](https://github.com/g1n0st)
 
 
 ### Fluid Engine ###
