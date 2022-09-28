@@ -10,16 +10,18 @@
 A collection of CFD related resources for Taichi developers.
 
 ## Contents
-- [Installation](#installation-of-taichi)
-- [Learning Resources](#learning-resources)
-- [CFD Projects in Taichi](#cfd-projects-in-taichi)
+- [Introduction](#introduction)
+- [Installation](#installation)
+- [Why Taichi for numerical computation](#why-taichi-for-numerical-computation)
+- [Benchmark](#benchmark)
+- [Fluid simulation examples written in Taichi](#fluid-simulation-examples-written-in-taichi)
   - [Incompressible Fluids](#incompressible-fluids)
   - [Compressible Fluids](#compressible-fluids)
   - [Particle-Based Methods](#particle-based-methods)
   - [Computational Graphics](#computational-graphics)
   - [Fluid Engine](#fluid-engine)
 
-## 📚 Introduction
+## Introduction
 
 
 [Taichi](https://github.com/taichi-dev/taichi) is an open source, high-performance parallel computing language embedded in Python. Compared to some traditional languages for numerical computation (Fortran/C++), Taichi offers the following advantages.
@@ -39,7 +41,7 @@ These features make Taichi unmatched by other languages for the implementation o
 
 In addition, because Taichi is easy to install and has few additional dependencies, making it easier than ever for users to reproduce the code of others, we believe that Taichi will greatly facilitate academic and scientific communication among users of numerical computing.
 
-## 🔧 Installation
+## Installation
 
 Taichi comes as a Python package, and it is as easy for users to install Taichi as it is to **install Python packages**, eliminating the need to toss around software dependencies. First make sure you have pip and have updated to the latest version: `
 
@@ -67,7 +69,7 @@ ti gallery
 ```
 
 
-## ⭐️ Advantages of writing numerical simulation code with Taichi
+## Why Taichi for numerical computation
 
 Taichi was originally created to resolve the conflict between programming efficiency and runtime performance for numerical computing users; to allow users to write **faster and more powerful** numerical computing programs with **less** code, Taichi offers the following features.
 
@@ -75,7 +77,7 @@ Taichi was originally created to resolve the conflict between programming effici
 
 Traditional parallel computing languages require more knowledge of the computer hardware and even require manual memory requests, memory releases (CUDA), manual allocation of scheduling thread blocks (Numba / CUDA), etc. during the code writing process. In Taichi, parallel computing code is almost as straightforward as serial code. For example, computing the 1st and 2nd order derivatives of a 1-dimensional variable with finite differences can be written in Taichi like this
 
-```
+```python
 f = ti.field(dtype=ti.f64, shape=(128,))
 dfdx = ti.field(dtype=ti.f64, shape=(128,))
 d2fdx = ti.field(dtype=ti.f64, shape=(128,))
@@ -91,7 +93,7 @@ def diff():
 
 Not only that, but in Taichi, users only need to modify one instruction at Taichi initialization to make their programs run on **multiple backends** such as multicore CPUs (e.g. x64, Arm) and GPUs (e.g. CUDA), without any concern for the underlying hardware changes: `` ` `
 
-```
+```python
 ti.init(arch=ti.cpu) # Run on CPU backend
 ti.init(arch=ti.cuda) # Run on CUDA backend
 ```
@@ -104,7 +106,7 @@ For a comparison of Taichi and Numba / CUDA ease of use and performance benchmar
 
 In numerical computing tasks, the memory arrangement of multidimensional arrays is critical to computational performance, and the underlying data container ``ti.field`` in Taichi is a data structure designed specifically for numerical computing users, created and accessed much like a multidimensional array in a general language, or an Ndarray in Numpy: the
 
-```
+```python
 f = ti.field(dtype=ti.f64, shape=(128,128)) # Creates a 2D 128x128 field 
 
 @ti.kernel
@@ -115,7 +117,7 @@ def init():
 
 On top of that, `ti.field` simplifies the data layout problem that is such a headache in traditional languages.
 
-```
+```python
 a = ti.field(dtype=ti.i32, shape=(n, m), order='ij') # explicit row major
 b = ti.field(dtype=ti.i32, shape=(n, m), order='ji') # explicit column major
 
@@ -131,7 +133,7 @@ Notice that the access forms for `a` and `b` are identical, and the user only ne
 
 In contrast, in a traditional C/C++ type language, you would need to explicitly adjust the data layout and access order: the
 
-```
+```c
 int a[3][2]; // row-major
 int b[2][3]; // column-major
 
@@ -146,29 +148,18 @@ for (int i = 0; i < 3; i++) {
 The difficulty of this adjustment becomes extremely tedious and difficult to check in dimensions of 3 or more. For more information on data layout in Taichi, see the [official documentation](https://docs.taichi-lang.org/zh-Hans/docs/layout).
 
 
-## 📈 Benchmark
+## Benchmark
 
 We give a lot of performance comparison data between Taichi and other common language implementations in [taichi_benchmark](https://github.com/taichi-dev/taichi_benchmark), and we make the full test code publicly available for users to test in their own hardware environment. (Our test hardware platforms are typically i9-11900K / RTX 3080)
 
-Our tests include basic arithmetic modes such as summation of statutes (reduce_sum), matrix element multiplication and summation (SAXPY), etc.
-! [benchmark|690x258, 75%](upload://1ZvAWYBm4tlt5AbKoYmB4GkDY6x.jpeg)
+Our tests include basic arithmetic modes such as summation of vector elements (reduce_sum), matrix element multiplication and SAXPY, etc.
 
-Practical examples of numerical calculations are also available, such as N-body problem solving, explicit velocity field updating in the MAC method, and simulation of differentiable incompressible fluids.
-! [benchmark--|690x243, 75%](upload://xKh3Paw9db8UwzVnIfZVpeGIP6D.jpeg)
+Practical examples of numerical simulations are also available, such as N-body problem solving, explicit velocity field updating in the MAC method, and simulation of differentiable incompressible fluids.
 
 In performance comparisons Taichi can often achieve computational performance close to or even marginally outperforming equivalent semantic CUDA code with extremely clean code, and in some cases significantly outperforming tools like Numpy / Numba.
 
-## 🌊 Introduction to the Numerical Computation SIG
 
-In order to promote mutual learning and communication among numerical computation users, and to further reduce the burden and threshold for users to answer their questions, we have established Taichi Numerical Computation SIG (Special Interest Group), which allows group members to have technical discussions through WeChat groups, and organize high-quality online sharing activities on numerical computation every Friday to widely discuss issues of concern in numerical computation. The SIG is a special interest group for numerical computing. So far, our topics include.
-
-
-## Learning Resources
-- Taichi's documentation: [Link](https://docs.taichi.graphics/)
-- SIGGRAPH 2020 course on Taichi basics: [YouTube](https://youtu.be/Y0-76n3aZFA), [Bilibili](https://www.bilibili.com/video/BV1kA411n7jk/), [slides (pdf)](https://yuanming.taichi.graphics/publication/2020-taichi-tutorial/taichi-tutorial.pdf).
-
-
-## 🐱 Fluid simulation example written in Taichi
+## Fluid simulation examples written in Taichi
 
 ### Incompressible Fluids ###
 
