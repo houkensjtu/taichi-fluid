@@ -38,10 +38,31 @@ At the same time, Taichi offers significant performance enhancements over famili
 * Portability: Taichi runs on different backends (CPU, CUDA, Metal, OpenGL, etc.) and **no user** modification of the original code is required
 
 These features make Taichi unmatched by other languages for the implementation of numerical computation algorithms, and more and more scholars/research groups are using Taichi as a tool language for algorithm implementation:
+<style>
+* {
+  box-sizing: border-box;
+}
 
-<img src="./images/article-1.png" height = 300 px>
-<img src="./images/article-2.png" height = 300 px>
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
 
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+<div class="clearfix">
+  <div class="image-container">
+  <img src="./images/article-1.png" height = 300 px>
+  </div>
+  <div class="image-container">
+  <img src="./images/article-2.png" height = 300 px>
+  </div>
+</div>
 In addition, because Taichi is easy to install and has few additional dependencies, making it easier than ever for users to reproduce the code of others, we believe that Taichi will greatly facilitate academic and scientific communication among users of numerical computing.
 
 ## Installation
