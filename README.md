@@ -23,6 +23,7 @@ A collection of CFD related resources for Taichi developers.
 
 ## Introduction
 
+<img src="./images/multi-demo.gif" height = 360 px>
 
 [Taichi](https://github.com/taichi-dev/taichi) is an open source, high-performance parallel computing language embedded in Python. Compared to some traditional languages for numerical computation (Fortran/C++), Taichi offers the following advantages.
 
@@ -36,8 +37,10 @@ At the same time, Taichi offers significant performance enhancements over famili
 
 * Portability: Taichi runs on different backends (CPU, CUDA, Metal, OpenGL, etc.) and **no user** modification of the original code is required
 
-These features make Taichi unmatched by other languages for the implementation of numerical computation algorithms, and more and more scholars/research groups are using Taichi as a tool language for algorithm implementation: !
+These features make Taichi unmatched by other languages for the implementation of numerical computation algorithms, and more and more scholars/research groups are using Taichi as a tool language for algorithm implementation:
 
+<img src="./images/article-1.png" height = 300 px>
+<img src="./images/article-2.png" height = 300 px>
 
 In addition, because Taichi is easy to install and has few additional dependencies, making it easier than ever for users to reproduce the code of others, we believe that Taichi will greatly facilitate academic and scientific communication among users of numerical computing.
 
@@ -67,7 +70,7 @@ We have also recently added a more interactive ``gallery`` feature, which allows
 ```
 ti gallery
 ```
-
+<img src="./images/ti-example.png" height = 300 px>
 
 ## Why Taichi for numerical computation
 
@@ -154,7 +157,13 @@ We give a lot of performance comparison data between Taichi and other common lan
 
 Our tests include basic arithmetic modes such as summation of vector elements (reduce_sum), matrix element multiplication and SAXPY, etc.
 
+<img src="./images/benchmark-reduce-sum.png" height = 300 px>
+<img src="./images/benchmark-saxy.png" height = 300 px>
+
 Practical examples of numerical simulations are also available, such as N-body problem solving, explicit velocity field updating in the MAC method, and simulation of differentiable incompressible fluids.
+
+<img src="./images/benchmark-nbody.png" height = 300 px>
+<img src="./images/benchmark-diff-smoke.png" height = 300 px>
 
 In performance comparisons Taichi can often achieve computational performance close to or even marginally outperforming equivalent semantic CUDA code with extremely clean code, and in some cases significantly outperforming tools like Numpy / Numba.
 
