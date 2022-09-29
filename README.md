@@ -25,17 +25,17 @@ A collection of CFD related resources for Taichi developers.
 
 <img src="./images/multi-demo.gif" height = 360 px>
 
-[Taichi](https://github.com/taichi-dev/taichi) is an open source, high-performance parallel computing language embedded in Python. Compared to some traditional languages for numerical computation (Fortran/C++), Taichi offers the following advantages.
+[Taichi](https://github.com/taichi-dev/taichi) is an open source, high-performance parallel programming language embedded in Python. Compared to some traditional languages for numerical computation (Fortran / C++), Taichi offers the following advantages:
 
 * Ease of use: Taichi's syntax is very similar to that of Python, minimizing the barrier to learning and writing parallel programs.
 
 * Data structures: Taichi provides `ti.field` specifically designed for numerical computation, which decouples the computational code from the data structure, allowing users to flexibly debug the row-major order of data without modifying the computational logic.
 
-At the same time, Taichi offers significant performance enhancements over familiar tools such as Matlab / Numpy for numerical computation users.
+At the same time, Taichi offers significant performance enhancements over traditional tools such as Matlab / Numpy for numerical computation users:
 
-* Ultra-high performance: Taichi compiles user code into native CPU or GPU machine code using its proprietary JIT on-the-fly compilation technology, providing an order of magnitude performance improvement over interpreted languages
+* Ultra-high performance: Taichi compiles user code into native CPU or GPU machine code using its proprietary JIT on-the-fly compilation technology, providing an order of magnitude performance improvement over interpreted languages.
 
-* Portability: Taichi runs on different backends (CPU, CUDA, Metal, OpenGL, etc.) and **no user** modification of the original code is required
+* Portability: Taichi runs on different backends (CPU, CUDA, Metal, OpenGL, etc.) and no modification of the original code is required.
 
 These features make Taichi unmatched by other languages for the implementation of numerical computation algorithms, and more and more scholars/research groups are using Taichi as a tool language for algorithm implementation:
 
@@ -73,7 +73,7 @@ ti gallery
 
 ## Why Taichi for numerical computation
 
-Taichi was originally created to resolve the conflict between programming efficiency and runtime performance for numerical computing users; to allow users to write **faster and more powerful** numerical computing programs with **less** code, Taichi offers the following features.
+Taichi was originally created to resolve the conflict between programmer's productivity and program's performance for numerical computation developers; to allow users to write **faster and more powerful** numerical computing programs with **less** code, Taichi offers the following features.
 
 **Easy-to-use high-performance parallel computing**
 
@@ -154,15 +154,15 @@ The difficulty of this adjustment becomes extremely tedious and difficult to che
 
 We give a lot of performance comparison data between Taichi and other common language implementations in [taichi_benchmark](https://github.com/taichi-dev/taichi_benchmark), and we make the full test code publicly available for users to test in their own hardware environment. (Our test hardware platforms are typically i9-11900K / RTX 3080)
 
-Our tests include basic arithmetic modes such as summation of vector elements (reduce_sum), matrix element multiplication and SAXPY, etc.
+Our tests include basic arithmetic modes such as summation of vector elements (reduce_sum), matrix element multiplication (SAXPY), etc.
 
 <img src="./images/benchmark-1.png">
 
-Practical examples of numerical simulations are also available, such as N-body problem solving, explicit velocity field updating in the MAC method, and simulation of differentiable incompressible fluids.
+Practical examples of numerical simulations are also available, such as N-body problem simulation and differentiable incompressible fluids simulation.
 
 <img src="./images/benchmark-2.png">
 
-In performance comparisons Taichi can often achieve computational performance close to or even marginally outperforming equivalent semantic CUDA code with extremely clean code, and in some cases significantly outperforming tools like Numpy / Numba.
+In performance comparisons, Taichi can often achieve computational performance close to CUDA, or even outperform equivalent semantic CUDA code with extremely clean code. And in some cases, Taichi can significantly outperform tools like Numpy / Numba.
 
 
 ## Fluid simulation examples written in Taichi
