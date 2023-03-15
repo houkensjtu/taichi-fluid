@@ -58,9 +58,11 @@ More information can be found in [Taichi's Documentation](https://docs.taichi.gr
   - [taichi_LBM3d](https://github.com/yjhp1016/taichi_LBM3D) by [@yjhp1016](https://github.com/yjhp1016)
 - Level-Set Method
   - [taichi_ferrofluid](https://github.com/g1n0st/taichi_ferrofluid) by [@g1n0st](https://github.com/g1n0st)
-- Marker-And-Cell(MAC) Method
+- Marker-And-Cell (MAC) Method
   - [2d-fluid-simulator](https://github.com/takah29/2d-fluid-simulator) by [@takah29](https://github.com/takah29)
   - [MAC-taichi](https://github.com/houkensjtu/MAC-taichi) by [@houkensjtu](https://github.com/houkensjtu)
+- Volume-Of-Fluid (VOF) Method
+  - [taichi-2d-vof](https://github.com/houkensjtu/taichi-2d-vof) by [@houkensjtu](https://github.com/houkensjtu)
   
 
 ### Compressible Fluids ###
@@ -81,6 +83,7 @@ More information can be found in [Taichi's Documentation](https://docs.taichi.gr
 ### Computational Graphics ###
 - Eulerian solver
   - [Taichi_HW1_EulerianFluid](https://github.com/JerryYan97/Taichi_HW1_EulerianFluid) by [@JerryYan97](https://github.com/JerryYan97)
+  - [2DEularianFluidSolver](https://github.com/Lee-abcde/2DEulerianFluidSolver/tree/main) by [@Lee-abcde](https://github.com/Lee-abcde/)
 - FFT
   - [taichi-simple-fluid-solver](https://github.com/0xrabbyte/taichi_simple_fluid_solver) by [@0xrabbyte](https://github.com/0xrabbyte)
 - Interactive surface flow
