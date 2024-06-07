@@ -16,15 +16,12 @@ Taichi provides several advantages over existing computational fluid dynamics to
 - Portability: Write your code once and run it everywhere. You can easily **reproduce** other's work without worrying about environment setup.
 - Simplicity: Data structure detached from computational logic. Tuning performance with only a few lines of change.
 
+> :eyes: All fluid simulation projects in [**Taichi**](https://github.com/taichi-dev/taichi) are driven by and for the community. Please feel free to open up an issue to recommend any awesome fluid project you see or build.
+
 ## Contents
-- [Installation](#installation-of-taichi)
+- [Installation of Taichi](#installation-of-taichi)
 - [Learning Resources](#learning-resources)
 - [CFD Projects in Taichi](#cfd-projects-in-taichi)
-  - [Incompressible Fluids](#incompressible-fluids)
-  - [Compressible Fluids](#compressible-fluids)
-  - [Particle-Based Methods](#particle-based-methods)
-  - [Computational Graphics](#computational-graphics)
-  - [Fluid Engine](#fluid-engine)
 
 ## Installation of Taichi
 You can easily install Taichi with Python's package installer `pip`:
