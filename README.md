@@ -56,6 +56,7 @@ More information can be found in [Taichi's Documentation](https://docs.taichi.gr
   - [LBM_Taichi](https://github.com/hietwll/LBM_Taichi) by [@hietwll](https://github.com/hietwll)
   - [taichi-LBM](https://github.com/GeCao/taichi-LBM) by [@Gecao](https://github.com/GeCao)
   - [taichi_LBM3d](https://github.com/yjhp1016/taichi_LBM3D) by [@yjhp1016](https://github.com/yjhp1016)
+  - [mcmp-lbm](https://github.com/geoelements/mcmp-lbm) by [@geoelements](https://github.com/geoelements/)
 - Level-Set Method
   - [taichi_ferrofluid](https://github.com/g1n0st/taichi_ferrofluid) by [@g1n0st](https://github.com/g1n0st)
 - Marker-And-Cell (MAC) Method
@@ -78,12 +79,21 @@ More information can be found in [Taichi's Documentation](https://docs.taichi.gr
   - [wcsph](https://github.com/lyd405121/wcsph) by [@lyd405121](https://github.com/lyd405121)
   - [SPH-2D-Taichi](https://github.com/MmmmHeee/SPH-2D-Taichi) by [@MmmmHeee](https://github.com/MmmmHeee)
   - [taichiCourse01_tiSPHi](https://github.com/Rabmelon/taichiCourse01_tiSPHi) by [@Rabmelon](https://github.com/Rabmelon)
+  - [Real-Time 3D Fluid Simulator](https://github.com/guardhao104/3DFluidSimulator) by [@guardhao104](https://github.com/guardhao104)
+  - [SPH-Fluid](https://github.com/Mr-222/SPH-Fluid) by [@Mr-222](https://github.com/Mr-222/)
+  - [2023project](https://github.com/Nope132/2023project) by [@Nope132](https://github.com/Nope132/)
+  - [SPH_Project](https://github.com/jason-huang03/SPH_Project) by [@jason-huang03](https://github.com/jason-huang03/)
+  - [CFD_Taichi](https://github.com/Jukgei/CFD_Taichi) by [@Jukgei](https://github.com/Jukgei/)
 
 
 ### Computational Graphics ###
 - Eulerian solver
   - [Taichi_HW1_EulerianFluid](https://github.com/JerryYan97/Taichi_HW1_EulerianFluid) by [@JerryYan97](https://github.com/JerryYan97)
   - [2DEularianFluidSolver](https://github.com/Lee-abcde/2DEulerianFluidSolver/tree/main) by [@Lee-abcde](https://github.com/Lee-abcde/)
+
+- Stable fuilds
+  - [Stable_Fluid_3D_taichi](https://github.com/LEE-JAE-HYUN179/Stable_Fluid_3D_taichi) by [@LEE-JAE-HYUN179](https://github.com/LEE-JAE-HYUN179/)
+  - [Euler-Fluid](https://github.com/jinjinhe2001/Euler-Fluid) by [@jinjinhe2001](https://github.com/jinjinhe2001/)
 - FFT
   - [taichi-simple-fluid-solver](https://github.com/0xrabbyte/taichi_simple_fluid_solver) by [@0xrabbyte](https://github.com/0xrabbyte)
 - Interactive surface flow
@@ -91,6 +101,12 @@ More information can be found in [Taichi's Documentation](https://docs.taichi.gr
 - PIC / FLIP
   - [apic2d](https://github.com/nepluno/apic2d) by [@nepluno](https://github.com/nepluno)
   - [Power-PIC](https://github.com/g1n0st/Power-PIC) by [@g1n0st](https://github.com/g1n0st)
+- MPM
+  - [HKUST_Advanced_Digital_Design_Project](https://github.com/DukeofCambridge/HKUST_Advanced_Digital_Design_Project/tree/main) by [@DukeofCambridge](https://github.com/DukeofCambridge)
+  - [mpm-sandbox](https://github.com/chhsiao93/mpm-sandbox) by [@chhsiao93](https://github.com/chhsiao93)
+  - [3D-FluidSimulation-PathTracing](https://github.com/Mirage-c/3D-FluidSimulation-PathTracing) by [@Mirage-c](https://github.com/Mirage-c/)
+  - [DreaMPM](https://github.com/Zhuohua-HUANG/DreaMPM) by [@Zhuohua-HUANG](https://github.com/Zhuohua-HUANG/)
+  - [taichi_mpm](https://github.com/yjchoi1/taichi_mpm) by [@yjchoi1](https://github.com/yjchoi1/)
 
 
 ### Fluid Engine ###
@@ -98,3 +114,8 @@ More information can be found in [Taichi's Documentation](https://docs.taichi.gr
 - [taichi_fluids](https://github.com/taichi-dev/taichi_fluids) by [@taichi-dev](https://github.com/taichi-dev)
 - [a-toy-fluid-engine](https://github.com/Jack12xl/a-toy-fluid-engine) by [@Jack12xl](https://github.com/Jack12xl)
 - [Fluid-Engine-Dev-on-Taichi](https://github.com/JYLeeLYJ/Fluid-Engine-Dev-on-Taichi) by [@JYLeeLYJ](https://github.com/JYLeeLYJ)
+
+### Artificial Intelligence ###
+- Neural Fluid Fields
+  - [HyFluid](https://github.com/y-zheng18/HyFluid) by [@y-zheng18](https://github.com/y-zheng18/)
+  - [neural_flow_maps_code](https://github.com/yitongdeng-projects/neural_flow_maps_code) by [@yitongdeng-projects](https://github.com/yitongdeng-projects/)
