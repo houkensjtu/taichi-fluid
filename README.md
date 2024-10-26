@@ -111,6 +111,7 @@ More information can be found in [Taichi's Documentation](https://docs.taichi.gr
 - [taichi_fluids](https://github.com/taichi-dev/taichi_fluids) by [@taichi-dev](https://github.com/taichi-dev)
 - [a-toy-fluid-engine](https://github.com/Jack12xl/a-toy-fluid-engine) by [@Jack12xl](https://github.com/Jack12xl)
 - [Fluid-Engine-Dev-on-Taichi](https://github.com/JYLeeLYJ/Fluid-Engine-Dev-on-Taichi) by [@JYLeeLYJ](https://github.com/JYLeeLYJ)
+- [FluidLab](https://github.com/zhouxian/FluidLab) by [@zhouxian](https://github.com/zhouxian)
 
 ### Artificial Intelligence ###
 - Neural Fluid Fields
