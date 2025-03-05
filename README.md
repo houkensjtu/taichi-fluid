@@ -87,10 +87,12 @@ More information can be found in [Taichi's Documentation](https://docs.taichi.gr
 - Eulerian solver
   - [Taichi_HW1_EulerianFluid](https://github.com/JerryYan97/Taichi_HW1_EulerianFluid) by [@JerryYan97](https://github.com/JerryYan97)
   - [2DEularianFluidSolver](https://github.com/Lee-abcde/2DEulerianFluidSolver/tree/main) by [@Lee-abcde](https://github.com/Lee-abcde/)
-
+- Eulerian-Lagrangian
+  - [particle-flow-maps](https://github.com/pfm-gatech/particle-flow-maps) by [@pfm-gatech](https://github.com/pfm-gatech)
 - Stable fuilds
   - [Stable_Fluid_3D_taichi](https://github.com/LEE-JAE-HYUN179/Stable_Fluid_3D_taichi) by [@LEE-JAE-HYUN179](https://github.com/LEE-JAE-HYUN179/)
   - [Euler-Fluid](https://github.com/jinjinhe2001/Euler-Fluid) by [@jinjinhe2001](https://github.com/jinjinhe2001/)
+  - [Fluid_Solid_Coupling](https://github.com/zjw49246/Fluid_Solid_Coupling) by [@zjw49246](https://github.com/zjw49246)
 - FFT
   - [taichi-simple-fluid-solver](https://github.com/0xrabbyte/taichi_simple_fluid_solver) by [@0xrabbyte](https://github.com/0xrabbyte)
 - Interactive surface flow
