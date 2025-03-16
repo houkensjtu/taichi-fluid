@@ -61,6 +61,7 @@ More information can be found in [Taichi's Documentation](https://docs.taichi.gr
   - [MAC-taichi](https://github.com/houkensjtu/MAC-taichi) by [@houkensjtu](https://github.com/houkensjtu)
 - Volume-Of-Fluid (VOF) Method
   - [taichi-2d-vof](https://github.com/houkensjtu/taichi-2d-vof) by [@houkensjtu](https://github.com/houkensjtu)
+  - [vof_sim](https://github.com/Arya-Shankar/vof_sim) by [@Arya-Shankar](https://github.com/Arya-Shankar)
   
 
 ### Compressible Fluids ###
